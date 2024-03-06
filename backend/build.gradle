@@ -16,10 +16,16 @@ repositories {
 }
 
 dependencies {
+	// data-mysql 연결
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-	implementation 'org.springframework.boot:spring-boot-starter-security'
-	implementation 'org.springframework.boot:spring-boot-starter-validation'
+	implementation 'com.mysql:mysql-connector-j'
+
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+
+	// lombok
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.security:spring-security-test'
 }
