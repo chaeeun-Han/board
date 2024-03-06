@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-import styles from '../styles/Main.module.css'
+import styles from '../styles/Main.module.css';
 import Top3List from '../components/Top3List';
+import Header from '../components/Header'
 
 function Main(){
     const [top3, setTop3] = useState([]);
@@ -22,7 +23,9 @@ function Main(){
       }, []);
 
     return(
+        
         <div className={styles.title}>
+          <div><Header /></div>
             <h2><span>Hoons board</span>에서<br/>다양한 이야기를 나눠보세요</h2>
 
             <h3>주간 TOP 3 게시물</h3>

@@ -20,7 +20,7 @@ const Top3List = ({top3List : {boardNumber, title, content, boardTitleImage,favo
             <div>
                 <h3>{title.length > 25 ? `${title.slice(0, 25)}...` : title}</h3>
                 <p>{content.length > 30 ? `${content.slice(0,30)}...` : content}</p>
-            </div>
+            </div> 
 
             <div className={styles.counter}>
                 <span>댓글: {commentCount} 좋아요: {favoriteCount} 조회수: {viewCount}</span>
