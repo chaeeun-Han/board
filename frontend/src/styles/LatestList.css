@@ -1,0 +1,80 @@
+.latestlist {
+    width: 780px;
+    height: 200px;
+    padding: 24px;
+    background-color:rgb(255, 255, 255);
+    margin-left: 7rem;
+    text-align: left;
+    margin-bottom:20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.latestlist .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.latestlist .writer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.latestlist .writer .img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url('../profileTest.png');
+    background-size: cover;
+}
+
+.latestlist .text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.latestlist .text span:nth-of-type(1) {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.latestlist .writer .text span:nth-of-type(2) {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 25px;
+}
+
+.latestlist .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.latestlist .content h3{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    line-height: 16px;
+}
+
+.latestlist .content p{
+    font-size: 12px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.latestlist .counter {
+    font-size: 12px;
+    margin-top: 16px;
+}
+
+.latestlist img {
+    border-radius: 10px;
+}

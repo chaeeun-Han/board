@@ -36,17 +36,18 @@
 }
 
 .containerLatest {
-  margin-left: 3rem;
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  width: 100%;
+  background-color: rgb(217, 216, 216);
+  margin-bottom: 10px;
+  padding-bottom: 140px;
 }
-h3:nth-of-type(2){
+.containerLatest h3{
 
   text-align: left;
-  font-size: 25px;
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 5%;
+  padding: 40px 0px 20px 120px;
 }
 
 

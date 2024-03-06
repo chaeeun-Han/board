@@ -6,6 +6,7 @@
     background-color: white;
     font-size: 24px;
     position: fixed;
+    z-index: 10;
 }
 .navbar .container {
     height: 100%;

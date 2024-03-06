@@ -1,0 +1,66 @@
+{
+    "code": "SU",
+    "message": "Success.",
+    "latestList": [
+		  {
+			  "boardNumber": 1,
+			  "title": "1번 제목입니다. 제목입니다. 1번 제목입니다. 제목입니다. 1번 제목입니다. 제목입니다.",
+			  "content": "오늘 점심을 뭐먹을 지 너무 고민이 되는 데 뭐 먹을까? 나 점심때 오늘 점심을 뭐먹을 지 너무 고민이 되는 데 뭐 먹을까? 오늘 점심을 뭐먹을 지 너무 고민이 되는 오늘 점심을 뭐먹을 지 너무 고민이 되는 데 뭐 먹을까? 나 점심때 ...",
+			  "boardTitleImage": null,
+			  "favoriteCount": 7,
+			  "commentCount": 9,
+			  "viewCount": 2,
+			  "writeDatetime": "2023.08.18. 00:54:27",
+			  "writerNickname": "안녕하세요나는주코야키",
+			  "writerProfileImage": null
+			},
+            {
+                "boardNumber": 5,
+                "title": "5번 제목입니다. 제목입니다. 5번 제목입니다. 제목입니다. 1번 제목입니다. 제목입니다.",
+                "content": "오늘 점심을 뭐먹을 지 너무 고민이 되는 데 뭐 먹을까? ",
+                "boardTitleImage": null,
+                "favoriteCount": 342,
+                "commentCount": 1,
+                "viewCount": 1,
+                "writeDatetime": "2023.01.21. 00:54:27",
+                "writerNickname": "오번작성자",
+                "writerProfileImage": null
+              },
+              {
+                "boardNumber": 2,
+                "title": "2222222번 제목입니다. 제목입니다. 1번 제목입니다. 제목입니다. 1번 제목입니다. 제목입니다.",
+                "content": "2번 입니다!",
+                "boardTitleImage": null,
+                "favoriteCount": 0,
+                "commentCount": 0,
+                "viewCount": 0,
+                "writeDatetime": "2023.08.18. 00:54:27",
+                "writerNickname": "이번작성자",
+                "writerProfileImage": null
+              },
+              {
+                "boardNumber": 3,
+                "title": "33333333번 제목입니다. 제목입니다. 1번 제목입니다. 제목입니다. 1번 제목입니다. 제목입니다.",
+                "content": "안녕 오늘 수요일 안녕 오늘 수요일 목요일 금요일 나는 오늘",
+                "boardTitleImage": null,
+                "favoriteCount": 7,
+                "commentCount": 2,
+                "viewCount": 6,
+                "writeDatetime": "2023.03.18. 00:54:27",
+                "writerNickname": "삼번작성자",
+                "writerProfileImage": null
+              },
+              {
+                "boardNumber": 4,
+                "title": "444444444번 제목입니다. 제목입니다. 1번 제목입니다. 제목입니다. 1번 제목입니다. 제목입니다.",
+                "content": "오늘 점심을 뭐먹을 지 너무 고민이 되는 데 뭐 먹을까? 나 점심때 오늘 점심을 뭐먹을 지 너무 고민이 되는 데 뭐 먹을까? 오늘 점심을 뭐먹을 지 너무 고민이 되는 오늘 점심을 뭐먹을 지 너무 고민이 되는 데 뭐 먹을까? 나 점심때 ...",
+                "boardTitleImage": null,
+                "favoriteCount": 4,
+                "commentCount": 0,
+                "viewCount": 5,
+                "writeDatetime": "2023.05.31. 00:54:27",
+                "writerNickname": "사번작성자",
+                "writerProfileImage": null
+              }
+    ]
+}
