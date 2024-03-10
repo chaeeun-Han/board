@@ -5,6 +5,7 @@ import styles from '../styles/Main.module.css';
 import Top3List from '../components/Top3List';
 import Header from '../components/Header'
 import LatestList from '../components/LatestList';
+import Footer from '../components/Footer';
 
 function Main(){
     const [top3, setTop3] = useState([]);
@@ -41,13 +42,18 @@ function Main(){
                        <Top3List top3List={top3List} key={top3List.boardNumber} />
                     ))}
             </div>
-            
+          <div className='grid'>
             <div className={styles.containerLatest}>
               <h3>최신 게시물</h3>
               {latestList.map((latestList) => (
                   <LatestList latestList={latestList} key={latestList.boardNumber} />
                 ))}
             </div>
+            <div className='containerPopular'>
+              <h3>인기 검색어</h3>
+            </div>
+          </div>
+          <div><Footer /></div>
         </div>
     );
 }
